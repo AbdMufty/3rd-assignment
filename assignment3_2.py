@@ -1,3 +1,4 @@
+grade = "null"
 try:
     score = float(input("Enter your score to evaluate grades\n==>"))
     if score < 0 or score > 100:
@@ -14,5 +15,5 @@ try:
         else:
             grade = "F"
 except:
-    print("Enter a numetic value from 0 to 100")
+    print("Enter a numeric value from 0 to 100")
 print("Your grade is ",grade)
